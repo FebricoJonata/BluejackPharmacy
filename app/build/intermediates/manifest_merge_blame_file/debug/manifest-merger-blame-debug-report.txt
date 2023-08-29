@@ -1,0 +1,188 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mcs_lab"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="33"
+8-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.SEND_SMS" />
+12-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.READ_SMS" />
+13-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:7:5-67
+13-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+14-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:8:5-70
+14-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:8:22-67
+15
+16    <!-- Include required permissions for Google Maps API to run. -->
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\a3c0e63d2b6324078ec5c23e883e53a4\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
+17-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\a3c0e63d2b6324078ec5c23e883e53a4\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:23:22-76
+18
+19    <uses-feature
+19-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\a3c0e63d2b6324078ec5c23e883e53a4\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+20        android:glEsVersion="0x00020000"
+20-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\a3c0e63d2b6324078ec5c23e883e53a4\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+21        android:required="true" />
+21-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\a3c0e63d2b6324078ec5c23e883e53a4\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+22
+23    <queries>
+23-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\a3c0e63d2b6324078ec5c23e883e53a4\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
+24
+25        <!-- Needs to be explicitly declared on Android R+ -->
+26        <package android:name="com.google.android.apps.maps" />
+26-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\a3c0e63d2b6324078ec5c23e883e53a4\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+26-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\a3c0e63d2b6324078ec5c23e883e53a4\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+27    </queries>
+28
+29    <permission
+29-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\2033df00c88964735466d344a7495998\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+30        android:name="com.example.mcs_lab.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+30-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\2033df00c88964735466d344a7495998\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+31        android:protectionLevel="signature" />
+31-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\2033df00c88964735466d344a7495998\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+32
+33    <uses-permission android:name="com.example.mcs_lab.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+33-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\2033df00c88964735466d344a7495998\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+33-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\2033df00c88964735466d344a7495998\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+34
+35    <application
+35-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:10:5-47:19
+36        android:allowBackup="true"
+36-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:11:9-35
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\2033df00c88964735466d344a7495998\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+38        android:dataExtractionRules="@xml/data_extraction_rules"
+38-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:12:9-65
+39        android:debuggable="true"
+40        android:extractNativeLibs="false"
+41        android:fullBackupContent="@xml/backup_rules"
+41-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:13:9-54
+42        android:icon="@mipmap/ic_launcher"
+42-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:14:9-43
+43        android:label="@string/app_name"
+43-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:15:9-41
+44        android:supportsRtl="true"
+44-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:16:9-35
+45        android:testOnly="true"
+46        android:theme="@style/Theme.MCS_Lab" >
+46-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:17:9-45
+47        <meta-data
+47-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:19:9-21:71
+48            android:name="com.google.android.geo.API_KEY"
+48-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:20:13-58
+49            android:value="AIzaSyBXLYL4DgIPBxqhX9Eu2GEIAkks9pdhptM" />
+49-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:21:13-68
+50
+51        <activity
+51-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:22:9-25:15
+52            android:name="com.example.mcs_lab.DetailActivity"
+52-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:23:13-43
+53            android:exported="false" />
+53-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:24:13-37
+54        <activity
+54-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:26:9-28:40
+55            android:name="com.example.mcs_lab.LoginActivity"
+55-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:27:13-42
+56            android:exported="false" />
+56-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:28:13-37
+57        <activity
+57-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:29:9-31:40
+58            android:name="com.example.mcs_lab.HomeActivity"
+58-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:30:13-41
+59            android:exported="false" />
+59-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:31:13-37
+60        <activity
+60-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:32:9-34:40
+61            android:name="com.example.mcs_lab.VerificationActivity"
+61-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:33:13-49
+62            android:exported="false" />
+62-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:34:13-37
+63        <activity
+63-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:35:9-37:40
+64            android:name="com.example.mcs_lab.RegisterActivity"
+64-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:36:13-45
+65            android:exported="false" />
+65-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:37:13-37
+66        <activity
+66-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:38:9-46:20
+67            android:name="com.example.mcs_lab.MainActivity"
+67-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:39:13-41
+68            android:exported="true" >
+68-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:40:13-36
+69            <intent-filter>
+69-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:41:13-45:29
+70                <action android:name="android.intent.action.MAIN" />
+70-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:42:17-69
+70-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:42:25-66
+71
+72                <category android:name="android.intent.category.LAUNCHER" />
+72-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:44:17-77
+72-->C:\Users\ASUS\Downloads\MCS_Lab\MCS_Lab\app\src\main\AndroidManifest.xml:44:27-74
+73            </intent-filter>
+74        </activity>
+75
+76        <provider
+76-->[com.squareup.picasso:picasso:2.71828] C:\Users\ASUS\.gradle\caches\transforms-3\5059263c220df18cd526e313c7e1bf09\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+77            android:name="com.squareup.picasso.PicassoProvider"
+77-->[com.squareup.picasso:picasso:2.71828] C:\Users\ASUS\.gradle\caches\transforms-3\5059263c220df18cd526e313c7e1bf09\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+78            android:authorities="com.example.mcs_lab.com.squareup.picasso"
+78-->[com.squareup.picasso:picasso:2.71828] C:\Users\ASUS\.gradle\caches\transforms-3\5059263c220df18cd526e313c7e1bf09\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+79            android:exported="false" /> <!-- Needs to be explicitly declared on P+ -->
+79-->[com.squareup.picasso:picasso:2.71828] C:\Users\ASUS\.gradle\caches\transforms-3\5059263c220df18cd526e313c7e1bf09\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+80        <uses-library
+80-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\a3c0e63d2b6324078ec5c23e883e53a4\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+81            android:name="org.apache.http.legacy"
+81-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\a3c0e63d2b6324078ec5c23e883e53a4\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+82            android:required="false" />
+82-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\a3c0e63d2b6324078ec5c23e883e53a4\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+83
+84        <activity
+84-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ASUS\.gradle\caches\transforms-3\cb7d1239bbbc86c46f2fae01f67eaf13\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+85            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+85-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ASUS\.gradle\caches\transforms-3\cb7d1239bbbc86c46f2fae01f67eaf13\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+86            android:exported="false"
+86-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ASUS\.gradle\caches\transforms-3\cb7d1239bbbc86c46f2fae01f67eaf13\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+87            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+87-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ASUS\.gradle\caches\transforms-3\cb7d1239bbbc86c46f2fae01f67eaf13\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+88
+89        <meta-data
+89-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\acb8f45e6943c2c0a734189634f03c2e\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+90            android:name="com.google.android.gms.version"
+90-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\acb8f45e6943c2c0a734189634f03c2e\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+91            android:value="@integer/google_play_services_version" />
+91-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\acb8f45e6943c2c0a734189634f03c2e\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+92
+93        <provider
+93-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\5fb85bde9e65645533741f221231e266\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+94            android:name="androidx.startup.InitializationProvider"
+94-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\5fb85bde9e65645533741f221231e266\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+95            android:authorities="com.example.mcs_lab.androidx-startup"
+95-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\5fb85bde9e65645533741f221231e266\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+96            android:exported="false" >
+96-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\5fb85bde9e65645533741f221231e266\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+97            <meta-data
+97-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\5fb85bde9e65645533741f221231e266\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+98                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+98-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\5fb85bde9e65645533741f221231e266\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+99                android:value="androidx.startup" />
+99-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\5fb85bde9e65645533741f221231e266\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+100            <meta-data
+100-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\5e5d2c54f36d082ef89a690250aeebd1\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+101                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+101-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\5e5d2c54f36d082ef89a690250aeebd1\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+102                android:value="androidx.startup" />
+102-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\5e5d2c54f36d082ef89a690250aeebd1\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+103        </provider>
+104    </application>
+105
+106</manifest>
